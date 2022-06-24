@@ -10,6 +10,7 @@ public class Reading {
         try{
             File previousFile = new File("Inventory.txt");
             Scanner readFile = new Scanner(previousFile);
+            // Read the file and add each line to the inventory variable.
             while(readFile.hasNextLine()) {
                 inventory += readFile.nextLine()+"\n";
             }

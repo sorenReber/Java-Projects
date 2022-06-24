@@ -10,6 +10,7 @@ public class UserInput {
 
     public void getUserInput() {
         Scanner userInput = new Scanner(System.in);
+        // Get the number of items that are going to be added.
         System.out.println("Enter the number of products you wish to enter: ");
         int numberOfAdditions = userInput.nextInt();
         for (int i =0; i < numberOfAdditions; i++){
@@ -19,6 +20,7 @@ public class UserInput {
             } else {
                 System.out.println("Enter a product, then it's amount in stock: ");
             }
+            // User input
             String productName = userInput.next();
             int quantity = userInput.nextInt();
             inventory.put(productName, quantity);
