@@ -1,0 +1,4 @@
+{bananas=24, apples=12, demons=2}
+[apples, bananas, demons]
+{fish=20, humans=7899}
+[humans, fish]

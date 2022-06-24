@@ -37,7 +37,6 @@ public class GuessingGame extends JFrame {
             } finally {
                 lblOutput.setText(message);
             }
-
         }
         public void newGame(){
             theNumber = (int)(Math.random() * 100 + 1);
@@ -45,20 +44,20 @@ public class GuessingGame extends JFrame {
         private JButton guessButton;
 
         public GuessingGame() {
+            // Button listener
             guessButton.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
                     checkGuess();
                 }
             });
-
+            // Text field listener for the Enter key
             txtGuess.addKeyListener(new KeyAdapter() {
                 @Override
                 public void keyPressed(KeyEvent e) {
-                    if(e.getKeyCode() == 10){
+                    if(e.getKeyCode() == KeyEvent.VK_ENTER){
                         checkGuess();
                     };
-
                 }
             });
         }
