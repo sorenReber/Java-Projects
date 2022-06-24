@@ -2,7 +2,7 @@
 
 This repository is a collection of different projects that I created to help learn Java.
 
-Within it is a obligatory hello world. Next is two different versions of a number guessing game, one that uses the console for input/output, and the other that uses a GUI.
+Within it is a obligatory Hello World. Next is two different versions of a number guessing game, one that uses the console for input/output, and the other that uses a GUI. There is also a project that I created to learn how to read and write to a file as well as make use of hashmap and arraylist. It's not a practical project but it does what I wanted it to do.
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
 
@@ -10,19 +10,23 @@ Within it is a obligatory hello world. Next is two different versions of a numbe
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+* IntelliJ 64 bit.
 
-{Describe the programming language that you used and any libraries.}
+* Java 18.
+
+* Visual Studio Code for git integration. (Used for familiarity)
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Java Swing GUI Login Tutorial - YouTube](https://www.youtube.com/watch?v=EcdbEax46bA)
+* [IntelliJ Swing GUI Tutorial - YouTube](https://www.youtube.com/watch?v=5vSyylPPEko)
+* [Intro to Java Programming - YouTube](https://www.youtube.com/watch?v=GoXwIVyNvX0&t=11484s)
+* [Learn Java The Easy Way ebook - no starch press](https://nostarch.com/learnjava)  - Purchased from Humble Bundle a couple years ago.
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+
+* Future Fix: Make the file write program more practical, further develop the read class to be able to add the user input to what is read, rather than just putting everything on new lines.
+* Future Improvement: For the guessing game with a GUI, I would like to implement a slider for the user to select what numbers to guess between and then a button to randomize based off the number they select. 
+* Future Improvment: Also for the GUI bases guessing game, I found IntelliJ's swing GUI creator to be difficult to make the GUI look nice, so I would like to invest more time into learning about it as maybe I was just doing it wrong. It was probably the biggest frustration with that project.
