@@ -23,6 +23,7 @@ Within it is a obligatory Hello World. Next is two different versions of a numbe
 * [IntelliJ Swing GUI Tutorial - YouTube](https://www.youtube.com/watch?v=5vSyylPPEko)
 * [Intro to Java Programming - YouTube](https://www.youtube.com/watch?v=GoXwIVyNvX0&t=11484s)
 * [Learn Java The Easy Way ebook - no starch press](https://nostarch.com/learnjava)  - Purchased from Humble Bundle a couple years ago.
+* [Java Tutorial - W3 Schools](https://www.w3schools.com/java/default.asp)
 
 # Future Work
 
